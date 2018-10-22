@@ -1,19 +1,19 @@
 
 /*
- * 	c4.(¦Û»s¦r¦ê¤ñ¸û¤èªk)
- *  ½Ð°Ñ·Ó Java ¦r¦êÃþ§O,­­©w¥u¯à§Q¥Î¦r¦êªº.charAt¤Î.length¨â¤èªk,
- * 	¦Û»s¦p¤U¦r¦ê¤ñ¸û¤èªk,
+ * 	c4.(è‡ªè£½å­—ä¸²æ¯”è¼ƒæ–¹æ³•)
+ *  è«‹åƒç…§ Java å­—ä¸²é¡žåˆ¥,é™å®šåªèƒ½åˆ©ç”¨å­—ä¸²çš„.charAtåŠ.lengthå…©æ–¹æ³•,
+ * 	è‡ªè£½å¦‚ä¸‹å­—ä¸²æ¯”è¼ƒæ–¹æ³•,
  *
- *   myEquals(src1,src2)¡X ¤ñ¸û¨â¦r¦ê¬O§_¬Ûµ¥¡C
- *   myEqualsIgnore(src1,src2)¡X ¤ñ¸û¨â¦r¦ê¤£¤À¤j¤p¼g¬O§_¬Ûµ¥
- *   myCompareTo(src1,src2)¡X ¤ñ¸û¨â¦r¦ê¡B¤j©ó¡Bµ¥©ó¡B©Î¤p©ó
+ *   myEquals(src1,src2)â€” æ¯”è¼ƒå…©å­—ä¸²æ˜¯å¦ç›¸ç­‰ã€‚
+ *   myEqualsIgnore(src1,src2)â€” æ¯”è¼ƒå…©å­—ä¸²ä¸åˆ†å¤§å°å¯«æ˜¯å¦ç›¸ç­‰
+ *   myCompareTo(src1,src2)â€” æ¯”è¼ƒå…©å­—ä¸²ã€å¤§æ–¼ã€ç­‰æ–¼ã€æˆ–å°æ–¼
  *   myRegionMatches(src1,src1Offset,src2,src2Offset,len)
- *   - ¤ñ¸û¨â¦r¦ê¡AA ¦r¦ê ±q src1Offset »P B ¦r¦ê ±qsrc2Offset ªø«× len ¤º©Ò¥]§tªº¦r¦ê¬O§_¬Ûµ¥
- *   - ¨Ò¦p abcedfg , bcdefg  - src1 = abcedfg, src2 = bcdefg, len = 3
+ *   - æ¯”è¼ƒå…©å­—ä¸²ï¼ŒA å­—ä¸² å¾ž src1Offset èˆ‡ B å­—ä¸² å¾žsrc2Offset é•·åº¦ len å…§æ‰€åŒ…å«çš„å­—ä¸²æ˜¯å¦ç›¸ç­‰
+ *   - ä¾‹å¦‚ abcedfg , bcdefg  - src1 = abcedfg, src2 = bcdefg, len = 3
  *   - src1Offset = 2 , src1 = ced
- *   - src2Offset = 2 , src2 = def  ¡X> fale
- *   myStartsWith(src1,startsWithSrc2) ¡X 
- *   myStartsWith(src1,startsWithSrc2,src1Offset)¡X 
+ *   - src2Offset = 2 , src2 = def  â€”> fale
+ *   myStartsWith(src1,startsWithSrc2) â€” 
+ *   myStartsWith(src1,startsWithSrc2,src1Offset)â€” 
  *   myEndsWith(src1,endsWithSrc2)
  */
 package stringpractice;
@@ -86,7 +86,7 @@ public class MyStringCompare {
 		String c = "ca";
 		String b = "cca";
 		System.out.println(a);
-		System.out.println(myStartsWith(b,c,1));
+	        System.out.println(myStartsWith(b,c,1));
 	}
 
 }
